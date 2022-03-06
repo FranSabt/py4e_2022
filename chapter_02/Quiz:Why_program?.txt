@@ -1,0 +1,84 @@
+
+
+    1 - What is the best way to think about a "Syntax Error" while programming?
+
+        Answer: The computer did not understand the statement that you entered
+        //Another way to think about this is that you make typing mistakes for that
+        reason the interpreter cannot execute the code.
+
+  
+    2 - What will the following program print out:
+
+    >>> x = 15
+    >>> x = x + 5
+    >>> print(x)
+
+        Answer: 20
+        // Now will see the computation step by step:
+            1: Initialize the variable "x" with the valor of 15 (x = 15)
+            2: Remember that writing code is not the same as in algebra. 
+            We know that x is equal to 15, so x = x + 5 
+            If we repeat the procedure x = x + 5, it will be equal 
+            to x = 20 + 5 and x gonna be 25is the same that write x = 15 + 5.
+
+
+    3 - Python scripts (files) have names that end with:
+
+        Answer: .py
+        // This is a tricky question because
+
+
+    4 - Which of these words is a reserved word in Python ?
+
+        Answer: while
+        //This is something to watch out for, every kind of file has is dot termination like: .py .c .js .mp3, etc.
+        And some of them are files you can execute like a photo or video like .jpg or .mov (there are many more formats) 
+        a program to install on your computer (.exe).
+        But for now, we are interested in the scripts for our IDE o Code Writer, these are scripts like Python (.py) 
+        JavaScript (.js), C++ (.cpp) that contain the code that we maniulate.
+
+
+    5 - Which of these words are reserved words in Python ?
+
+        Answer: break "and" if
+        // "todo", "machine" and "concat" are reserved words in other languages 
+
+
+    6 - What is the proper way to say “good-bye” to Python?
+
+        Answer: quit()
+        // In a Unix system terminal like Linux or Mac, you can close the terminal with the "exit" command,
+        and is kind of common to see this command in interpreters and compilers.
+        But obviusly, python is diferent.
+
+
+    7 - Which of the parts of a computer actually executes the program instructions?
+
+        Answer: Central Processing Unit
+        // Try to run a PC game without CPU " xP "
+
+
+    8 - What is "code" in the context of this course?
+
+        Answer: A sequence of instructions in a programming language
+        // Think in this way: a CPU can't read words or the number from 2 through 9, it can only read and work with 1s and 0s.
+        But writing the code in binary can be tedious and very difficult if not almost impossible for today's apps.
+        That's why we use programming languages to make instructions more readable for us but easy to parse in binary as well.
+
+
+    9 - A USB memory stick is an example of which of the following components of computer architecture?
+
+        Answer: Secondary Memory
+        //There is a parallelism in psychology, the main memory can be the short-time memory, 
+        which is the data that you are working on right now, is in your conscious mind. 
+        Main memory is represented in the RAM memory of the device.
+        
+        Secondary memory will be the long-time memory, that memoirs that you need to take a time to find inside your brain. 
+        Is represented un Hard-Drives, USB, Solid Stated Disk, etc. 
+
+
+
+    10 - What is the best way to think about a "Syntax Error" while programming?
+
+        Answer: The computer did not understand the statement that you entered
+        /Repetition of question 1.
