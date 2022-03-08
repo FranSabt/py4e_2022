@@ -1,0 +1,117 @@
+1 - In the following code,
+    print(98.6)
+
+What is "98.6"?
+
+Answer: A constant
+// The detail is in ' What is "98.6"? ', because "98.6" is a string, 
+strings are immutable, so they are constant values.
+
+
+
+2 - Which of the following is a comment in Python?
+
+Answer: # This is a test
+// Comments are typically with: "//" ,  "/*  */" , or   "* "; 
+trough different languages,  but in Python differs a lot using "#" 
+and triple quotes for multiline comments """ comment in python """
+
+
+
+3 - What does the following code print out?
+print("123" + "abc")
+
+Answer: 123abc
+// Across many languages this operation: "string1" + "string2"; is not an adition,
+is concatenation of string, but you can't do it like this: 100 + "hello", it will trace back an
+error beacuse you are mixing diferent types of data.       int + string = not possible in Python
+
+
+
+4 - In the following code,
+x = 42
+What is "x"?
+
+Answer: A variable
+// When you put a letter follow by "=" and some sort of data, you are declaring a variable.
+// Remember that they are placeholder for data.
+
+
+
+5 - Which of the following is a bad Python variable name?
+
+Answer: 23spam
+// A variable cannot start with numbers in Python, is "illegal".
+
+
+
+6 - Which of the following variables is the "most mnemonic"?
+
+Answer: hours
+// By reading the name you know immidiately what represent the data in the variable.
+
+
+
+7 -Which of the following is not a Python reserved word?
+
+Answer: speed
+// Unless that Python where a language specifically designed for physics problems 
+there's no sense to have a reserved word called "speed". 
+This is a good name for a variable as many other.
+
+
+
+8 - Which of the following is not a Python reserved word?
+
+Answer: iterate
+// There are reserved words to make iterations, you will learn about in 
+ chapter 4: Conditional Execution 
+
+
+
+9 - Assume the variable x has been initialized to an integer value (e.g., x = 3). What does the following statement do?
+
+x = x + 2
+
+Retrieve the current value for x, add two to it and put the sum back into x
+// Is the same that write: x = 3 + 2, beacuse x is already assigned the value 3.
+
+
+
+10 - Which of the following elements of a mathematical expression in Python is evaluated first?
+
+Parentheses ( )
+// In any language the Parentheses has top priority preference. Also in algebra
+
+
+
+11 - What is the value of the following expression:
+42 % 10
+
+Answer: 2
+//For logical reasons the remainder operator "%" work with "int" values, 
+if you work with "float" the remainder has no sense.
+
+
+
+12 - What will be the value of x after the following statement executes:
+
+x = 1 + 2 * 3 - 8 / 4
+
+Answer: 5.0
+// First, the operation will be like:  x = 1 + (2 * 3) - (8 / 4);
+Then, just remeber that division in Python3 will always parse the int's to float.
+
+
+
+13- What will be the value of x when the following statement is executed:
+x = int(98.6)
+
+Answer: 98
+// 98.6 is a float number and is parse to int, that eliminates the .6 of the value.
+
+
+14 - What does the Python input() function do?
+
+Answer: Pause the program and read data from the user.
+
