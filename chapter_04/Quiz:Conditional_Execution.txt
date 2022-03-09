@@ -1,12 +1,15 @@
 1 - What do we do to a Python statement that is immediately after an if statement to indicate that the statement is to be executed only when the if statement is true?
 
 Answer: Indent the line below the if statement
+    //Python order the relationship of statement through the indentation.
+
 
 
 
 2 -Which of these operators is not a comparison / logical operator?
 
 Answer: " = "
+    // The equal (=) sign alone means assignation.
 
 
 
@@ -17,14 +20,15 @@ if  x == 5 :
     print('Is Still 5')
     print('Third 5')
 
-
 Answer: Depending on the value of x, either all three of the print statements will execute or none of the statements will execute
+    // If x is equal to 5, all the statements are run because they are indented below the comparison.
 
 
 
 4 - When you have multiple lines in an if block, how do you indicate the end of the if block?
 
 Answer: You de-indent the next line past the if block to the same level of indent as the original if statement
+    // Se answer 1
 
 
 
@@ -36,31 +40,33 @@ if x == 6 :
     print('Third 6')
 
 It looks perfect but Python is giving you an 'Indentation Error' on the second print statement. What is the most likely reason?
-    //This is very tricky so lest go step by step.
+    //This is very tricky so let's go step by step.
 
 
 Python thinks 'Still' is a mis-spelled word in the string
-    //Python don't check for the grammar of you spelling inside the "string"
+    //Python doesn't check for the grammar of your spelling inside the "string"
 
-In order to make humans feel inadequate, Python randomly emits 'Indentation Errors' on perfectly good code - after about an hour the error will just go away without any changes to your program
-    // Well.... this is ridiculus
+In order to make humans feel inadequate, Python randomly emits 'Indentation Errors' on perfectly good code - 
+after about an hour the error will just go away without any changes to your program
+    // Well.... this is ridiculous
 
 Python has reached its limit on the largest Python program that can be run
-    // As long you have the memory and the CPU power, you program can be as large as you whant.
+    // As long you have the memory and the CPU power, your program can be as large as you want.
 
 Answer: You have mixed tabs and spaces in the file
-    // This is confusing, but in some text editors, the tabs are not the same as teh 4 spaces indet
-    and that calls for a indet error even if in the screen seems the same. 
+    // This is confusing, but in some text editors, the tabs are not the same as the 4 spaces indent 
+    and that calls for an indent error even if the screen seems the same. 
 
 
 
 
 
-7 - What is the Python reserved word that we use in two-way if tests to indicate the block of code that is to be executed if the logical test is false?
+7 - What is the Python reserved word that we use in two-way if tests to indicate the block of code that is 
+to be executed if the logical test is false?
 
 
 Answer: else
-    //The curlybraces are not words and the other to are not in the lis of reserved words. 
+    //The curly brackets are not words and the other two are not in the list of reserved words.
 
 
 
@@ -75,11 +81,10 @@ Answer: else
         print('LARGE')
     print('All done')
 
-
 Answwer: Small All done
-    //This is tricky, you may think that alls the statements are valid, and thats is true, "x" can run all the options.
-    But you can only run the firts statement that acomplish the parameters, then the final "print" because is 
-    de-indet and dont take part in the if-else statement.
+    // This is tricky, you may think that all the statements are valid, and thats is true, "x" can run all the options.
+    But you can only run the first statement that accomplishes the parameters, then the final "print" because 
+    is de-indent and don't take part in the if-else statement.
 
 
 
@@ -94,9 +99,8 @@ Answwer: Small All done
 
 What value of 'x' will cause 'Something else' to print out?
 
-
 Answer: This code will never print 'Something else' regardless of the value for 'x'
-    //  The code evalues a number less that 2 or "from" 2 to up, theres no room for other number.
+    // The code evaluates a number less than 2 or "from" 2 to up, there is no room for another number.
 
 
 
@@ -110,8 +114,8 @@ Answer: This code will never print 'Something else' regardless of the value for 
     (6)   print('Second', istr)
 
 Answwer: 1
-    // When try to parse "astr" to "int",that conteing the string 'Hello Bob', you get an error
-    you cannot parse string to numbers
+    // When trying to parse "astr" to "int", that contains the string 'Hello Bob', you get an error
+    you cannot parse strings into numbers
 
 
 
@@ -125,4 +129,4 @@ except:
     istr = -1
 
 Answer: -1
-    //You get an error whe try to parse a "string" to "int" and then the "except" is execute.
+    //You get an error whe try to parse a "string" to "int" and then the "except" is executed.
