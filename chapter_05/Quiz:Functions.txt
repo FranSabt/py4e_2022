@@ -1,0 +1,87 @@
+1 -  Which Python keyword indicates the start of a function definition?
+
+Answer: def
+// function definition (def)
+
+
+
+2 - In Python, how do you indicate the end of the block of code that makes up the function? 
+
+Answer: You de-indent a line of code to the same indent level as the def keyword
+// The relation of dependence in statements is in base the indentation, other wise, you code will not work in Python.
+
+
+
+3 - In Python what is the input() feature best described as?
+
+Answer: A built-in function
+// All the functions that are predefined in a programming language are called built-in functions.
+
+
+
+4 - What does the following code print out?
+
+    def thing():
+        print('Hello')
+    
+    print('There')
+
+Answer: There
+// In the code the function y is defined but is never called/invoked, so only the print is executed.
+
+
+5 - In the following Python code, which of the following is an "argument" to a function?
+
+    x = 'banana'
+    y = max(x)
+    print(y)
+
+Answer: x
+// The argument is the data that you pass to the function to be processed.
+
+
+6 - What will the following Python code print out?
+
+    def func(x) :
+        print(x)
+    
+    func(10)
+    func(20)
+
+Answer: 1020
+// Because is printing numbers and not string, the print does not generate a new line.
+
+
+
+7 - Which line of the following Python program will never execute?
+
+    def stuff():
+        print('Hello')
+        return
+        print('World')
+
+Answer: print ('World')
+// The line is never executed because the return statement ends the function.
+You can only have a return inside of every function.
+
+
+8 - What will the following Python program print out?
+
+    def greet(lang):
+        if lang == 'es':
+            return 'Hola'
+        elif lang == 'fr':
+            return 'Bonjour'
+        else:
+            return 'Hello'
+    print(greet('fr'),'Michael')
+
+Answer: Bonjour Michael
+// The argument passed to the "greet" function is 'fr', lang will be equal to 'fr' and then it will return "Bonjour"
+
+
+
+9 - What is the most important benefit of writing your own functions?
+
+Answer: Avoiding writing the same non-trivial code more than once in your program
+// Avoids repetition of your code and makes it more compact.
