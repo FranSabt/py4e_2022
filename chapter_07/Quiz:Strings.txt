@@ -1,0 +1,98 @@
+ 1 - What does the following Python Program print out?
+
+    str1 = "Hello"
+    str2 = 'there'
+    bob = str1 + str2
+    print(bob)
+
+Answer: Hellothere
+// Is all together because any of the string have a space at the beginning or the end.
+
+
+
+2 - What does the following Python program print out?
+
+    x = '40'
+    y = int(x) + 2
+    print(y)
+
+Answer: 42
+// The the Answer to the Ultimate Question of Life, The Universe, and Everything.. is 42.
+And also we parse "x" to int and then realise the sum.
+
+
+
+3 - How would you use the index operator [] to print out the letter q from the following string?
+
+x = 'From marquard@uct.ac.za'
+
+Answer: print(x[8])
+// If we count from "F" that have index [0], the "q" is in index [8]
+
+
+
+4 - How would you use string slicing [:] to print out 'uct' from the following string?
+
+x = 'From marquard@uct.ac.za'
+
+
+print(x[14:17])
+// Index [14] have the "u" and index [17] ".", this beacuse the first index is inclusive,
+means that have the character that index point, but the last index is exclusive, means that 
+character don't be print or use.
+
+
+
+5 - What is the iteration variable in the following Python code?
+
+for letter in 'banana' :
+    print(letter)
+
+Answer: for
+// "for" is the key word in Python (and many other languages) to make a for loop.
+
+
+
+6 - What does the following Python code print out?
+
+    print(len('banana')*7)
+
+Answer: 42
+
+// You may think that "len" will give you "5" as result because the [0] index, but len gives
+you the total of character whitout [0] index, so will return 6. And 6 times 7 is 42. 
+
+
+
+7 - How would you print out the following variable in all upper case in Python?
+
+    greet = 'Hello Bob'
+
+Answer: print(greet.upper())
+// Some of the other option where valid sintax for other languages, but Python always
+try to have the more simple and concise syntax.
+
+
+
+8 - Which of the following is not a valid string method in Python?
+
+Answer: shout()
+// "shout()" shut doens't appeard in the list of string methods
+
+
+
+10 - What will the following Python code print out?
+
+    data = 'From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008'
+    pos = data.find('.')
+    print(data[pos:pos+3])
+
+Answer: .ma
+// Similar to question 4. In this case the first index is given by data.find().
+
+
+
+11- Which of the following string methods removes whitespace from both the  beginning and end of a string. 
+
+Answe: strip()
+// And aslo erase the new line charater (\n).
