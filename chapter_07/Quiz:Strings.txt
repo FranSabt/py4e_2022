@@ -49,7 +49,9 @@ for letter in 'banana' :
     print(letter)
 
 Answer: for
-// "for" is the key word in Python (and many other languages) to make a for loop.
+// Here the variable that is created for the iteration is "letter" that will travel 
+from character to character through the string "banana".
+
 
 
 
