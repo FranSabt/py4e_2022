@@ -1,5 +1,5 @@
 # IMPORTANT!!! This code does not run well in Python3.8, I have a machine that I cannot configure for python 3.10, 
-# but in other machine or online interpreter works well.
+# but in other machines or online interpreters works well.
 
 largest = None
 smallest = None
