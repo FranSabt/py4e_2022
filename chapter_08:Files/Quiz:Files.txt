@@ -1,0 +1,103 @@
+ 1 - Given the architecture and terminology we introduced in Chapter 1, where are files stored?
+
+ Answer: Secondary memory
+// We store the data in secondary memory and is manipulated in the main memory.
+
+
+2 -  What is stored in a "file handle" that is returned from a successful open() call?
+
+Answer:  The handle is a connection to the file's data
+// Is a connection because is no logic to read the data and store it in the main memory if you still 
+don't define what is exactly to do whit the data. In synthesis, it would be inefficient.
+
+
+ 3 - What do we use the second parameter of the open() call to indicate?
+
+ Answer: Whether we want to read data from the file or write data to the file
+ // Before do anything with the data, the first step is to open the file that contains a then you can manipulate.
+
+
+
+ 4 - What Python function would you use if you wanted to prompt the user for a file name to open?
+
+ Answer: input()
+ // In many languages, "input" is a reserved word asked the user for data.
+ Also think that the monitor, the sound, or the printing are outputs, they put the data from the computer
+ to the outside, input is the back way.
+
+
+
+ 5 - What is the purpose of the newline character in text files?
+
+Answer:  It indicates the end of one line of text and the beginning of another line of text
+// Remember that the newline is normally invisible and is write as "\n".
+
+
+
+6 -  If we open a file as follows:
+
+    xfile = open('mbox.txt')
+What statement would we use to read the file one line at a time?
+
+Answer: for line in xfile:
+// "line" is the variable, it can be called as you wanted and is gonna work, you can call the variable
+as "words", "Doritos", "x", etc, any of these word will do the job but is not really good practice to call you variable
+Doritos in this case.
+//In other toughs, you may be wondering why the loop work. A text file is a "list"(you gonna learn about in the next chapter)
+or "array"(the name in many other languages), where every line is a collection of characters and has an index like the string. 
+Like: line[0], line[1]... line[n]. The line end with the character "\n", when the "for loop" encounters tha character ends the 
+present iteration and starts the new.
+
+
+7 -  What is the purpose of the following Python code?
+
+    fhand = open('mbox.txt')
+    x = 0
+    for line in fhand:
+        x = x + 1
+    print(x)
+
+ Answer: Count the lines in the file 'mbox.txt'
+ // Every time that the loop start a new iteration "x" is given "+ 1", as every iteration end with "\n" character
+ "x" cant only contains a number in direct relation of lines in the file.
+
+
+
+8 -  If you write a Python program to read a text file and you see extra blank lines in the output that are not present 
+in the file input as shown below, what Python string function will likely solve the problem?
+
+    From: stephen.marquard@uct.ac.za
+    
+    From: louis@media.berkeley.edu
+    
+    From: zqian@umich.edu
+    
+    From: rjlowe@iupui.edu
+
+ Answer: rstrip()
+ // "rstrip" erase all the blank lines in the string, which includes "\n" and with every "print" statement is print 
+ a "\n" that allows maintaining order in the printing data.
+
+
+
+9 -  The following code sequence fails with a traceback when the user enters a file that does not exist. 
+How would you avoid the traceback and make it so you could print out your own error message when a bad file name was entered?
+
+    fname = input('Enter the file name: ')
+    fhand = open(fname)
+    signal handlers
+
+ Answer: try / except
+ // The user always will find a way to break your code.
+ Be prepared.
+
+
+
+10 -  What does the following Python code do?
+
+    fhand = open('mbox-short.txt')
+    inp = fhand.read()
+
+Answer:  Reads the entire file into the variable inp as a string
+//  Unlike question 1, once you have the connection you can do things with the data, but first
+you need to store in a variable to be manipulated.
