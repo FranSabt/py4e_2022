@@ -6,18 +6,22 @@
         print('All done')
 
     Answer: This loop will run forever
+    // "n" is greater than 0 and nothing makes the variable decrease, so it is always true and never stops.
 
    
 
     2 - What does the break statement do?
 
     Answer: Exits the currently executing loop
+    // "break" exists in many languages to stop the loops statements.
 
   
 
     3 - What does the continue statement do?
 
     Answer: Jumps to the "top" of the loop and starts the next iteration
+    // If instead of stopping a loop you only wanna stop an iteration for any reason, you use "continue",
+    also exists in many languages.
 
 
 
@@ -29,6 +33,9 @@
         print(tot)
 
     Answer: 5
+    // "tot" is added "+ 1" with every loop. This list "[5, 4, 3, 2, 1]" has five elements with the numbers through 1 to 5, 
+    but it can be 6 to 10, "a" to "e", or five random words, etc. The thing is there are five elements and for that, 
+    the loop can only run five times giving "tot" a total value of 5.
 
 
 
@@ -39,10 +46,8 @@
             print('Happy New Year:',  friend)
         print('Done!')
 
-    Joseph
-
     Answer: friend
-    // The names are the vaues that the iteration woul traverse.
+    // The names are the values that the iteration would traverse.
 
 
 
@@ -55,6 +60,8 @@
 
 
     Answer: Compute the average of the elements in a list
+    // In this case unlike question 4, the variable "thing" is taking one value a the  time of the list, the is added to "zork", 
+    "zork" stores the value a "thing" replaces whit the next on the list.
 
  
 
@@ -69,6 +76,13 @@
     Hint: This is a trick question and most would say this code has a bug - so read carefully
 
     Answer: -1
+    // "smallest_so_far" has been initiallized with the value "-1" and the list have only positive integers.
+    A good code would be:
+         smallest_so_far = None (Because "0" is not usefull if you only have negative int)
+        for the_num in [9, 41, 12, 3, 74, 15] :
+        if the_num == None or the_num < smallest_so_far : (With "the_num == None or the_num" with put the first value that encounters)
+            smallest_so_far = the_num
+        print(smallest_so_far)
 
 
 
@@ -78,7 +92,8 @@
             smallest = value
 
     matches both type and value
-    // The question is center in "is" operator.
+    // The question is center in "is" operator. 
+    Another way to make the same statement is "smallest == None", it gives you the same result.
 
 
     9 - Which reserved word indicates the start of an "indefinite" loop in Python?
@@ -96,3 +111,4 @@
         print('Dry off!')
 
     Answer: 0
+    // "n" is not greater than 0, so the loops will never run."
