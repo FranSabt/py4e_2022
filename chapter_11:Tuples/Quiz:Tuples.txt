@@ -1,20 +1,26 @@
 1 -  What is the difference between a Python tuple and Python list?
 
 Answer: Lists are mutable and tuples are not mutable
+// An advantage is that tuples are safe data by is the incapacity to change.
 
 
 
 2 - Which of the following methods are available for both Python lists and Python tuples?
 
  Answer: index()
+ // The other methods imply changing the data in the tuple.
 
 
 
 3 -  What will end up in the variable y after this code is executed?
 
     x , y = 3, 4
-Answer: 4
 
+Answer: 4
+//  I was confused because I feel that the redaction was not clear, I think it might be better 
+like this: "  What will end up in the variable: y, after..." or  "What will end up in the variable "y" after...".
+In any case; "x" is assigned the first value on the other side of the equal sign, and "y" the second, if you
+invert the position of the variables like "y , x = 3, 4", "y" will be 3.
 
 
 4 -  In the following Python code, what will end up in the variable y?
@@ -23,6 +29,7 @@ Answer: 4
     y = x.items()
 
  Answer: A list of tuples
+ // items() always return a tuple, a safe data ;).
 
 
 
@@ -33,6 +40,8 @@ Answer: 4
     ...
 
  Answer: (6, 0, 0)
+ //The "<" and ">" compares the first number (index[0]) of the tuples, 
+ and only if they equal the comparison will execute the next index.
 
 
 
@@ -43,12 +52,14 @@ Answer: 4
         tmp.append( (v, k) )
 
 Answer: It creates a list of tuples where each tuple is a value, key pair
-
+// It can be confusing, but is a series tuples inside of a list, for example:
+lst = ({a,4}, {b, 9}, {c, 7}....). The {} represents the tuples in this case.
 
 
  7 - If the variable data is a Python list, how do we sort it in reverse order?
 
 Answer: data.sort(reverse=True)
+// Without "reverse=True" condition, the .sort() will be executed in normal mode.
 
 
 
@@ -57,6 +68,7 @@ Answer: data.sort(reverse=True)
     days = ('Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun')
 
 Answer: print(days[2])
+// Tuples work with the index system.
 
 
 9 - In the following Python loop, why are there two iteration variables (k and v)?
@@ -66,9 +78,10 @@ Answer: print(days[2])
         ...
 
  Answer: Because the items() method in dictionaries returns a list of tuples
-
+// Se question 4.
  
 
 10 - Given that Python lists and Python tuples are quite similar - when might you prefer to use a tuple over a list?
 
 Answer: For a temporary variable that you will use and discard without modifying
+// And is safe use.
