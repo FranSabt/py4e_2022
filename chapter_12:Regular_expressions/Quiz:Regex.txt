@@ -1,0 +1,64 @@
+ 
+ 1 - What character do you add to the "+" or "*" to indicate that the match is to be done in a non-greedy manner?
+
+Answer: ?
+// The "+" an the "*" will match any number of characters that acomplish the requirements until finds a 
+white space.
+
+
+2 - What will the '$' regular expression match?
+
+Answer: The end of a line
+//  Will match the "\0"  character.
+
+
+
+3 - What would the following mean in a regular expression? [a-z0-9]
+
+Answer: Match a lowercase letter or a digit
+// Any condition between "[ ]" will match only one character if you don't use
+the "+" or "*".
+
+
+
+4 - What is the type of the return value of the re.findall() method?
+
+Answer: A list of strings
+// For every line oon the file that we use "re.findall()", will give you a list
+with the matches.
+
+
+
+5 - What is the "wild card" character in a regular expression (i.e., the character that matches any character)?
+
+Answer: .
+// The wild card ( . ) it's really usefull when you wanna find all the data between two parameters.
+(Other uses can be executed as well)
+ 
+
+6 - What is the difference between the "+" and "*" character in regular expressions?
+
+Answer: The "+" matches at least one character and the "*" matches zero or more characters
+// "+" It's usefull when you wanted to match a least one character, and "*" almost
+the same but if a specific codition of the macth cannot be done, the program will extract the data
+that macth the rest of the codition. 
+
+
+
+7 - What does the "[0-9]+" match in a regular expression?
+
+Answer: One or more digits
+// The "+" tells the program that extract any numbers of continuos digits.
+
+
+
+8 - What does the following Python sequence print out?
+
+x = 'From: Using the : character'
+y = re.findall('^F.+:', x)
+print(y)
+
+Answer: ['From: Using the :']
+// This can be confusing because you may think that the ":" will stop the macth in "From:",
+but the "^F.+" will macth from the "F" to all the characters because wehave the wildcard "."
+whit the "+", until the string end with ":"
