@@ -1,0 +1,92 @@
+Network Programming
+
+
+1 - What do we call it when a browser uses the HTTP protocol to load a file or page from a server and display it in the browser?
+
+Answer: The Request/Response Cycle
+//When a petition it's started, a series of requests begin until obtaining a satisfactory response
+for every package needed. Look at 'The Odin Project' Foundations for more info about packages
+and the internet.
+
+
+2 - What separates the HTTP headers from the body of the HTTP document?
+
+Answer: A blank line
+//It's a convention in the design of WebPages to separate the header or metadata (that allows to
+the search engine to look for the pages needed) and the body (which contains the page and it's 
+audio-visual elements).
+
+
+
+3 - Which of the following is most similar to a TCP port number?
+
+Answer: A telephone extension
+//  The TCP is the number assigned to every machine that has a connection to the internet through a modem.
+Your modem is the main line of the telephone and then he assigns a number to the other machines that connect
+through him..
+
+
+4 - What must you do in Python before opening a socket?
+
+Answer: import socket
+// If you don't import the socket you will need to writte the algorithm for the connection rigth from
+the scratch, and if you do well, probally you will be ended with something very similar to the 'socket'
+library.
+
+
+
+5 - In a client-server application on the web using sockets, which must come up first?
+
+Answer: server
+// Because is the server that contains the data we are looking for, 
+it must first accept our request for connection.
+
+
+
+6 - Which of the following TCP sockets is most commonly used for the web protocol (HTTP)?
+
+Answer: 80
+// As you know already, the world of computers has a series of conventions of how to do all
+kinds of things. Connections through port 80 for internet is one of them.
+
+
+
+7 - Which of the following is most like an open socket in an application?
+
+Answer: An "in-progress" phone conversation
+// That it's because when a connection is established between computers, they will send and receive
+data from that connection until is ended.
+
+
+
+8 - What does the "H" of HTTP stand for?
+
+Answer: HyperText
+// Remeber the whole meaning of HTTP: HyperText Transfer Protocol.
+
+
+
+9 - What is an important aspect of an Application Layer protocol like HTTP?
+
+Answer: Which application talks first? The client or server?
+// See question 5
+
+
+10 - What are the three parts of this URL (Uniform Resource Locator)?
+    http://www.dr-chuck.com/page1.html
+
+Answer: Protocol, host, and document
+// A web page has these 3 elements:
+    Protocol: http(s) (how we wanna connect)
+    Domain (the owner): www.dr-chuck.com (with whom)
+    Document: page1.htm (or any kind of file)
+
+
+
+11- When you click on an anchor tag in a web page like below, what HTTP request is sent to the server?
+
+  <p>Please click <a href="page1.htm">here</a>.</p>
+
+Answer: GET
+// Usually you can see any time in a page like Wikipedia in the form of blue 'HyperLinks' 
+that takes you to other elements of the page or other pages.
