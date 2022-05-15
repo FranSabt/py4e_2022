@@ -1,7 +1,7 @@
  1 - Who is credited with getting the JSON movement started?
 
  Answer: Douglas Crockford
- // And is has two amazing books about JavaScript 'JavaScript: The Good Parts'
+ // And he's have two amazing books about JavaScript 'JavaScript: The Good Parts'
  // and 'How JavaScript Works'
 
 
@@ -19,7 +19,6 @@
  Answer: import json
  // Has a simple convention, the library's to work with external formats will be have 
  // the name of the format itself
-
 
 
 

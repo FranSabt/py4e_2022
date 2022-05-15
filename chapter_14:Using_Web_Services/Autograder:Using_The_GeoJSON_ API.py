@@ -20,7 +20,8 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 while True:
-    address = input('Enter location: ')
+    address = input('Enter location: ') # The location is not the web direction, 
+    # is the physical location that you are looking for, like 'University of Michigan'.
     if len(address) < 1: break
 
     parms = dict()
@@ -44,5 +45,8 @@ while True:
         continue
     
     id = js['results'][0]['place_id']
-    
+    # This is the only code that matter for us, is modify to work with the API data in JSON
+    # You need to go to the JSON file variable that's called 'result', then the first list (array in JS),
+    # that's why we use '[0]', and inside that list the look for the key-value of 'place_id'.
+
     print(id)
