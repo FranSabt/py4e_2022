@@ -1,0 +1,79 @@
+01 - Structured Query Language (SQL) is used to (check all that apply)
+
+    Answers: 
+        Insert data
+        Delete data
+        Create a table
+
+
+
+02 - Which of these is the right syntax to make a new table?
+
+    Answer:
+        CREATE TABLE people;
+
+
+
+03 - Which SQL command is used to insert a new row into a table?
+
+    Answer:
+        INSERT INTO
+
+
+
+04 - Which command is used to retrieve all records from a table?
+
+    Answer:
+        SELECT * FROM Users
+
+
+
+05 - Which keyword will cause the results of the query to be displayed in sorted order?
+
+    Answer:
+        ORDER BY
+
+
+
+06 - In database terminology, another word for table is
+
+    Answer:
+        relation
+
+
+
+07 - In a typical online production environment, who has direct access to the production database?
+
+    Answer:
+        Database Administrator
+
+
+
+Which of the following is the database software used in this class?
+
+    Answer:
+        SQLite
+
+
+
+09 - What happens if a DELETE command is run on a table without a WHERE clause?
+
+    Answer:
+        All the rows in the table are deleted
+
+
+
+11 - Which of the following commands would update a column named "name" in a table named "Users"?
+
+    Answer:
+        UPDATE Users SET name='new name' WHERE ...
+
+
+
+12 - What does this SQL command do?
+
+SELECT COUNT(*) FROM Users
+Hint: This is not from the lecture
+ 
+    Answer:
+        It counts the rows in the table Users
